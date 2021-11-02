@@ -1,6 +1,6 @@
 FROM python:3.9.2
 
-ADD . /codigo
+COPY . /codigo
 
 WORKDIR /codigo
 
